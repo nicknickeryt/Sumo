@@ -1,10 +1,10 @@
-spprefix: '&7[&6Spleef_reloaded&7]'
+spprefix: '&7[&6Sumo_reloaded&7]'
 menutitle: '&1Arènes'
 menuarenaname: '&a{ARENA}'
 menutext: '&5Joueurs: &6{PS}/{MPS}'
 menufee: '&5Taxe d''entrée: &6{FEE}'
 menupvp: '&5PVP: &6Activé'
-menutracker: '&1Traqueur de joueurs Spleef'
+menutracker: '&1Traqueur de joueurs Sumo'
 nopermission: '&cVous n''avez pas la permission de faire ça'
 nolobby: '&cLe lobby n''est pas défini, faites &6/spsetup setlobby'
 lobbyunloaded: '&cLe lobby n''est pas chargé ou n''existe pas'
@@ -66,19 +66,19 @@ notenoughmoney: '&cVous avez besoin de {MONEY} pour acheter cet objet'
 alreadyboughtitem: '&cVous avez déjà acheté un objet'
 shopnostock: '&cCet objet n''est plus en stock'
 maxdoublejumpsexceeded: '&cVous ne pouvez dépasser la limite de double sauts ({MAXJUMPS})'
-playernotinarena: '&cVous n''êtes pas dans une arène de Spleef'
+playernotinarena: '&cVous n''êtes pas dans une arène de Sumo'
 playernotonline: '&6{PLAYER} &7est hors-ligne'
 gamesplayed: '&bParties jouées &f: '
 gameswon: '&bVictoires &f: '
 gameslost: '&bDéfaites &f: '
 winstreak: '&bWin streak &f: '
-statshead: '&7=========[&6Statistiques Spleef &7]========='
-rewardshead: '&7======[&6Récompenses Spleef&7 - &a{ARENA}&7]======'
-leaderhead: '&7======[&6Classement Spleef&7]======'
-resultshead: '&7============[&6Spleef&7]============'
+statshead: '&7=========[&6Statistiques Sumo &7]========='
+rewardshead: '&7======[&6Récompenses Sumo&7 - &a{ARENA}&7]======'
+leaderhead: '&7======[&6Classement Sumo&7]======'
+resultshead: '&7============[&6Sumo&7]============'
 leaderboard: '{POSITION}) &c{RANK}&b{COLOR}{PLAYER} &f: Victoires &3{WINS}'
 leadersign: '&1{PLAYER} &4{WINS}'
-shopmoneyheader: '&fCompte Boutique Spleef'
+shopmoneyheader: '&fCompte Boutique Sumo'
 shopmoneybalance: '&5Votre balance est de &6{BAL}'
 statsdisabled: '&cLes statistiques sont désactivées'
 helplobby: Téléporté au lobby
@@ -91,10 +91,10 @@ helpspectate: Rejoindre l'arène en tant que spectateur
 helpautojoin: Rejoindre automatiquement la première arène disponible
 helpleave: Quitter l'arène actuelle
 helpvote: Voter pour forcer le début de l'arène actuelle
-helpcmds: Voir toutes les commandes Spleef
+helpcmds: Voir toutes les commandes Sumo
 helpinfo: Voir les informations du plugin
 helpstats: Voir les stats des joueurs
-helplb: Afficher le classement Spleef
+helplb: Afficher le classement Sumo
 helpstart: Forcer le début de l'arène
 setuplobby: Définir le lobby global à votre position actuelle
 setupdellobby: Supprimer le lobby global
@@ -131,13 +131,13 @@ setupcurrency: Définir la devise pour rejoindre l'arène
 setuphelp: Commandes nécessaires pour configurer l'arène
 setupenablekits: Activer les kits pour l'arène
 setupdisablekits: Désactiver les kits pour l'arène
-setupaddkit: Créer un kit Spleef
-setupdelkit: Supprimer un kit Spleef
+setupaddkit: Créer un kit Sumo
+setupdelkit: Supprimer un kit Sumo
 setupp1: Définir le bloc visé comme premier bloc de sélection
 setupp2: Définir le bloc visé comme second bloc de sélection
 setupclear: Effacer les points de sélection
 setupwhitelist: Whitelister une commande à utiliser en jeu
-setupresetstats: Retirer toutes les statistiques Spleef d'un joueur
+setupresetstats: Retirer toutes les statistiques Sumo d'un joueur
 setupresetrank: Retirer le rang du joueur de la cache
 setupwaiting: Set a spawn location used prior to joining the arena
 setupdelwaiting: Delete the waiting spawn location
@@ -160,7 +160,7 @@ partyban: '&cVous avez été exclu du groupe'
 partyinparty: '&cVous êtes déjà dans un groupe'
 partynotexist: '&cLe groupe sélectionné n''existe pas'
 partynoinvite: '&c Vous n''avez pas d''invitation à ce groupe'
-partynotenabled: '&c Les parties Spleef ne sont pas activées pour le moment'
+partynotenabled: '&c Les parties Sumo ne sont pas activées pour le moment'
 partyclickaccept: '&6&lAccepter'
 partyclickdecline: '&6&lRefuser'
 partyaccepttext: '&7Cliquez pour &caccepter &7l''invitation'

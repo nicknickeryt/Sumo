@@ -1,10 +1,10 @@
-spprefix: '&7[&6Spleef_reloaded&7]'
-menutitle: '&1Spleef_reloaded Areny'
+spprefix: '&7[&6Sumo_reloaded&7]'
+menutitle: '&1Sumo_reloaded Areny'
 menuarenaname: '&a{ARENA}'
 menutext: '&5Hraci: &6{PS}/{MPS}'
 menufee: '&5Poplatek za Pripojeni: &6{FEE}'
 menupvp: '&5PVP: &6Povoleno'
-menutracker: '&1Spleef sledovani hracu'
+menutracker: '&1Sumo sledovani hracu'
 nopermission: '&c Nemas Pravomoce na tuhle cinnost'
 nolobby: '&c Hlavni lobby neni nastavena, napis &6/spsetup setlobby'
 lobbyunloaded: '&c Svet s Lobby je nenacteny nebo neexistuje'
@@ -66,19 +66,19 @@ notenoughmoney: '&c Potřebuješ {MONEY} pro nákup této položky'
 alreadyboughtitem: '&c Již sis koupil tento item z obchodu'
 shopnostock: '&c Tento item je vyprodán'
 maxdoublejumpsexceeded: '&c Nemůžeš překročit maximální počet dvoj-skoků, který je {MAXJUMPS}'
-playernotinarena: '&c Nejsi v Spleef Aréně'
+playernotinarena: '&c Nejsi v Sumo Aréně'
 playernotonline: '&6 {PLAYER} &7 není v aréně'
 gamesplayed: '&b Odehraných her&f: '
 gameswon: '&bVýhry &f: '
 gameslost: '&bProhry &f: '
 winstreak: '&bWin streak &f: '
-statshead: '&7=========[&6Spleef Staty&7]========='
-rewardshead: '&7======[&6Spleef Odměny&7 - &a{ARENA}&7]======'
-leaderhead: '&7======[&6Spleef Žebříček&7]======'
-resultshead: '&7============[&6Spleef&7]============'
+statshead: '&7=========[&6Sumo Staty&7]========='
+rewardshead: '&7======[&6Sumo Odměny&7 - &a{ARENA}&7]======'
+leaderhead: '&7======[&6Sumo Žebříček&7]======'
+resultshead: '&7============[&6Sumo&7]============'
 leaderboard: '{POSITION}) &c{RANK}&b{COLOR}{PLAYER} &f: Výhry &3{WINS}'
 leadersign: '&1{PLAYER} &4{WINS}'
-shopmoneyheader: '&fSpleef Účet Obchodu'
+shopmoneyheader: '&fSumo Účet Obchodu'
 shopmoneybalance: '&5Tvuj zustatek je &6{BAL}'
 statsdisabled: '&c Staty jsou momentálně vypnuté'
 helplobby: Teleportování do lobby
@@ -91,10 +91,10 @@ helpspectate: Připojit se do arény jako divák
 helpautojoin: Automaticky se připojit do první dostupné arény
 helpleave: Opustit momentální arénu
 helpvote: Hlasovat pro vynucení startu momentální arény
-helpcmds: Zobrazit všechny Spleef příkazy
+helpcmds: Zobrazit všechny Sumo příkazy
 helpinfo: Zobrazit info pluginu
 helpstats: Zobrazit statistiku hráče
-helplb: Zobrazit Spleef žebříček
+helplb: Zobrazit Sumo žebříček
 helpstart: Vynutit spuštění arény
 setuplobby: Nastavení globální lobby na vaší aktuální pozici
 setupdellobby: Vymazání Globální lobby
@@ -131,13 +131,13 @@ setupcurrency: Nastavení měny pro připojení do arény
 setuphelp: Příkazy nutné pro nastavení nové arény
 setupenablekits: Povolení kitů v aréně
 setupdisablekits: Zakázání kitů v aréně
-setupaddkit: Vytvoření nového Spleef Kitu
-setupdelkit: Vymazání Spleef Kitu
+setupaddkit: Vytvoření nového Sumo Kitu
+setupdelkit: Vymazání Sumo Kitu
 setupp1: Nastavit cílený blok jako první bod výběru
 setupp2: Nastavit cílený blok jako druhý bod výběru
 setupclear: Vymazat vybrané body
 setupwhitelist: Povolení příkazu pro použití ve hře
-setupresetstats: Smazání všech Spleef statistik pro hráče
+setupresetstats: Smazání všech Sumo statistik pro hráče
 setupresetrank: Vymazání ranku hráče z cache
 setupwaiting: Set a spawn location used prior to joining the arena
 setupdelwaiting: Delete the waiting spawn location
@@ -160,7 +160,7 @@ partyban: '&c Byl si vyhozen z této party'
 partyinparty: '&c Už si v partě'
 partynotexist: '&c Zvolená parta neexistuje'
 partynoinvite: '&c Nemáš pozvánku do této party'
-partynotenabled: '&c Spleef party nejsou momentálně zaplé'
+partynotenabled: '&c Sumo party nejsou momentálně zaplé'
 partyclickaccept: '&6&lAccept'
 partyclickdecline: '&6&lDecline'
 partyaccepttext: '&7Click to &baccept &7the invitation'

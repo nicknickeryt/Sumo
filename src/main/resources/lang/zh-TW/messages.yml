@@ -1,10 +1,10 @@
-spprefix: '&7[&6Spleef_重製&7]'
-menutitle: '&1Spleef 地圖'
+spprefix: '&7[&6Sumo_重製&7]'
+menutitle: '&1Sumo 地圖'
 menuarenaname: '&a{ARENA}'
 menutext: '&5玩家: &6{PS}/{MPS}'
 menufee: '&5入場費: &6{FEE}'
 menupvp: '&5PVP: &6啟用'
-menutracker: '&1Spleef玩家追踪器'
+menutracker: '&1Sumo玩家追踪器'
 nopermission: '&c 你沒有權限這樣做'
 nolobby: '&c 主大廳尚未設置，請輸入 &6/spsetup setlobby &c來設置'
 lobbyunloaded: '&c 大廳所位於的世界未載入或是它不存在'
@@ -33,7 +33,7 @@ arenawaiting: '&6 等候中'
 playerscountinarena: '&6 目前有 {COUNT} 名玩家在地圖內'
 limitreached: '&7 地圖人數已滿'
 playerjoinedtoothers: '&c {RANK}&6{COLOR}{PLAYER} &7加入了遊戲 (&6{PS}&7/&6{MPS}&7)'
-playerjoininvite: '&c{RANK}&6{COLOR}{PLAYER} &7加入了 Spleef 於 &6{ARENA}&7, 點擊遊玩'
+playerjoininvite: '&c{RANK}&6{COLOR}{PLAYER} &7加入了 Sumo 於 &6{ARENA}&7, 點擊遊玩'
 playerborderinvite: '&b---------------------------------------'
 playerclickinvite: 點擊加入 {ARENA}
 playerjoinedasspectator: '&7 你以旁觀者加入了 &6{ARENA} &7地圖'
@@ -66,19 +66,19 @@ notenoughmoney: '&c 你需要 {MONEY} 元才能購買該物品'
 alreadyboughtitem: '&c 你已經購買了該物品'
 shopnostock: '&c 本物品缺貨'
 maxdoublejumpsexceeded: '&c 你不能買超過限制的雙重跳躍。 (最多：{MAXJUMPS})'
-playernotinarena: '&c 你不在 Spleef 遊戲內'
+playernotinarena: '&c 你不在 Sumo 遊戲內'
 playernotonline: '&6 {PLAYER} &7目前不在線'
 gamesplayed: '&b遊玩場次 &f: '
 gameswon: '&b獲勝場次 &f: '
 gameslost: '&b失敗場次 &f: '
 winstreak: '&bWin streak &f: '
-statshead: '&7=========[&6Spleef 統計&7]========='
-rewardshead: '&7======[&6Spleef 獎賞&7 - &a{ARENA}&7]======'
-leaderhead: '&7======[&6Spleef 排行榜&7]======'
-resultshead: '&7============[&6Spleef&7]============'
+statshead: '&7=========[&6Sumo 統計&7]========='
+rewardshead: '&7======[&6Sumo 獎賞&7 - &a{ARENA}&7]======'
+leaderhead: '&7======[&6Sumo 排行榜&7]======'
+resultshead: '&7============[&6Sumo&7]============'
 leaderboard: '{POSITION}) &b{COLOR}{PLAYER} &f: 勝場 &3{WINS}'
 leadersign: '&1{PLAYER} &4{WINS}'
-shopmoneyheader: '&fSpleef 商店帳戶'
+shopmoneyheader: '&fSumo 商店帳戶'
 shopmoneybalance: '&5餘額 &6{BAL}'
 statsdisabled: '&c 統計已被禁用'
 helplobby: 傳送到大廳
@@ -94,7 +94,7 @@ helpvote: 準備，以讓遊戲快速開始
 helpcmds: 列出所有指令
 helpinfo: 瀏覽插件資訊
 helpstats: 瀏覽玩家統計
-helplb: 顯示 Spleef 排行榜
+helplb: 顯示 Sumo 排行榜
 helpstart: 強制開始遊戲
 setuplobby: 將你所在的位置設為大廳
 setupdellobby: 刪除大廳
@@ -137,7 +137,7 @@ setupp1: 設定正在觀看的方塊為第一個選取點
 setupp2: 設定正在觀看的方塊為第二個選取點
 setupclear: 清除選取點
 setupwhitelist: 可在遊戲內使用的指令
-setupresetstats: 刪除播放器的所有 Spleef 統計數據
+setupresetstats: 刪除播放器的所有 Sumo 統計數據
 setupresetrank: 從緩存中移除玩家的排名
 setupwaiting: Set a spawn location used prior to joining the arena
 setupdelwaiting: Delete the waiting spawn location
@@ -160,7 +160,7 @@ partyban: '&c 您目前已被踢出該派對'
 partyinparty: '&c 你已經在派對中'
 partynotexist: '&c 所選方不存在'
 partynoinvite: '&c 您沒有參加此派對的邀請'
-partynotenabled: '&c Spleef 當前未啟用各方'
+partynotenabled: '&c Sumo 當前未啟用各方'
 partyclickaccept: '&6&l接受'
 partyclickdecline: '&6&l拒絕'
 partyaccepttext: '&7點擊&b接受&7邀請'

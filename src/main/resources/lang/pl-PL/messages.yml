@@ -1,10 +1,10 @@
-spprefix: '&7[&6Spleef_reloaded&7]'
-menutitle: '&1Spleef_reloaded areny'
+spprefix: '&7[&6Sumo_reloaded&7]'
+menutitle: '&1Sumo_reloaded areny'
 menuarenaname: '&a{ARENA}'
 menutext: '&5Gracze: &6{PS}/{MPS}'
 menufee: '&5Opłata za dołączenie: &6{FEE}'
 menupvp: '&5PVP: &6Włączone'
-menutracker: '&1Spleef śledzenie gracza'
+menutracker: '&1Sumo śledzenie gracza'
 nopermission: '&c Nie masz uprawnień'
 nolobby: '&c Globalne lobby nie jest ustawione, wpisz komendę &6/spsetup setlobby &c aby ustawić lobby'
 lobbyunloaded: '&c Świat z lobby nie jest załadowany lub nie istnieje '
@@ -33,7 +33,7 @@ arenawaiting: '&6 Czeka na dołączenie graczy'
 playerscountinarena: '&6 Aktualna liczba graczy na arenie: {COUNT} gracz/y'
 limitreached: '&7 Arena jest pełna.'
 playerjoinedtoothers: '&c {RANK}&6{COLOR}{PLAYER} &7dołączył do areny (&6{PS}&7/&6{MPS}&7)'
-playerjoininvite: '&c{RANK}&6{COLOR}{PLAYER} &7dołączył do areny Spleef &6{ARENA}&7, kliknij, aby zagrać'
+playerjoininvite: '&c{RANK}&6{COLOR}{PLAYER} &7dołączył do areny Sumo &6{ARENA}&7, kliknij, aby zagrać'
 playerborderinvite: '&b---------------------------------------'
 playerclickinvite: Kliknij, aby dołączyć do {ARENA}
 playerjoinedasspectator: '&7 Dołączyłeś do areny &6{ARENA} &7jako widz'
@@ -66,19 +66,19 @@ notenoughmoney: '&c Potrzebujesz {MONEY}, aby kupić ten przedmiot'
 alreadyboughtitem: '&c Kupiłeś już przedmiot w sklepie'
 shopnostock: '&c Ten produkt jest obecnie niedostępny'
 maxdoublejumpsexceeded: '&c Nie możesz przekroczyć maksymalnej dozwolonej liczby podwójnych skoków ({MAXJUMPS})'
-playernotinarena: '&c Nie jesteś na arenie Spleef'
+playernotinarena: '&c Nie jesteś na arenie Sumo'
 playernotonline: '&6 {PLAYER} &7 nie jest obecnie online'
 gamesplayed: '&bRozegrane gry &f:'
 gameswon: '&bWygrane &f:'
 gameslost: '&bPrzegrane &f:'
 winstreak: '&bWin streak &f: '
-statshead: '&7=========[&6Statystyki Spleef&7]========='
-rewardshead: '&7======[&6Nagrody Spleef&7 - &a{ARENA}&7]======'
-leaderhead: '&7======[&6Tabela wyników Spleef&7]======'
-resultshead: '&7============[&6Spleef&7]============'
+statshead: '&7=========[&6Statystyki Sumo&7]========='
+rewardshead: '&7======[&6Nagrody Sumo&7 - &a{ARENA}&7]======'
+leaderhead: '&7======[&6Tabela wyników Sumo&7]======'
+resultshead: '&7============[&6Sumo&7]============'
 leaderboard: '{POSITION}) &c{RANK}&b{COLOR}{PLAYER} &f: Wygrane &3{WINS}'
 leadersign: '&1{PLAYER} &4{WINS}'
-shopmoneyheader: '&fKonto sklepu Spleef'
+shopmoneyheader: '&fKonto sklepu Sumo'
 shopmoneybalance: '&5Twoje saldo wynosi &6{BAL}'
 statsdisabled: '&c Statystyki są obecnie wyłączone'
 helplobby: Teleportuj się do lobby
@@ -91,10 +91,10 @@ helpspectate: Dołącz do areny jako widz
 helpautojoin: Automatycznie dołącz do pierwszej dostępnej areny
 helpleave: Opuść obecną arenę
 helpvote: Zagłosuj za wymuszeniem rozpoczęcia obecnej areny
-helpcmds: Zobacz wszystkie polecenia Spleef
+helpcmds: Zobacz wszystkie polecenia Sumo
 helpinfo: Wyświetl informacje o wtyczce
 helpstats: Zobacz statystyki gracza
-helplb: Wyświetl tabelę wyników Spleef
+helplb: Wyświetl tabelę wyników Sumo
 helpstart: Wymuś uruchomienie areny
 setuplobby: Ustaw globalne lobby w swojej obecnej lokalizacji
 setupdellobby: Usuń globalne lobby
@@ -131,13 +131,13 @@ setupcurrency: Ustaw walutę, aby dołączyć do areny
 setuphelp: Polecenia wymagane do skonfigurowania nowej areny
 setupenablekits: Włącz zestawy dla areny
 setupdisablekits: Wyłącz zestawy dla areny
-setupaddkit: Utwórz zestaw Spleef
-setupdelkit: Usuń zestaw Spleef
+setupaddkit: Utwórz zestaw Sumo
+setupdelkit: Usuń zestaw Sumo
 setupp1: Ustaw wybrany blok jako pierwszy punkt zaznaczenia
 setupp2: Ustaw wybrany blok jako drugi punkt zaznaczenia
 setupclear: Wyczyść punkty wyboru
 setupwhitelist: Umieść na białej liście polecenie do użycia w grze
-setupresetstats: Usuń wszystkie statystyki Spleef dla gracza
+setupresetstats: Usuń wszystkie statystyki Sumo dla gracza
 setupresetrank: Usuń rangę gracza z pamięci podręcznej
 setupwaiting: Set a spawn location used prior to joining the arena
 setupdelwaiting: Delete the waiting spawn location
@@ -160,7 +160,7 @@ partyban: '&c Zostałeś wyrzucony z drużyny'
 partyinparty: '&c Jesteś już w drużynie'
 partynotexist: '&c Wybrana drużyna nie istnieje'
 partynoinvite: '&c Nie masz zaproszenia do tej drużyny'
-partynotenabled: '&c Party Spleef nie są aktualnie włączone'
+partynotenabled: '&c Party Sumo nie są aktualnie włączone'
 partyclickaccept: '&6&lAkceptuj'
 partyclickdecline: '&6&lOdrzuć'
 partyaccepttext: '&7Kliknij, aby &bprzyjąć &7zaproszenie'

@@ -1,52 +1,52 @@
-name: Spleef_reloaded
-main: spleef.Spleef
+name: Sumo_reloaded
+main: sumo.Sumo
 softdepend: [WorldEdit, Vault, HeadsPlus, mcMMO, PlaceholderAPI, Parties]
 version: ${project.version}
 api-version: 1.21.3
 author: steve4744
 commands:
-  spleefsetup:
-    description: Spleef arena setup commands
-    aliases: spsetup
-  spleef:
-    description: Spleef_reloaded game commands
-    aliases: sp
-  spleefconsole:
-    description: Spleef console commands
-    aliases: spconsole
+  sumosetup:
+    description: Sumo arena setup commands
+    aliases: smsetup
+  sumo:
+    description: Sumo_reloaded game commands
+    aliases: sm
+  sumoconsole:
+    description: Sumo console commands
+    aliases: smconsole
 permissions:
-  spleef.join:
-    description: used to control who can play Spleef and where
+  sumo.join:
+    description: used to control who can play Sumo and where
     default: true
-  spleef.autojoin:
+  sumo.autojoin:
     description: used to control who can use the autojoin command
     default: true
-  spleef.setup:
+  sumo.setup:
     description: used to create and modify arenas and gameplay
     default: op
-  spleef.version.check:
+  sumo.version.check:
     description: display new version message on player join
     default: op
-  spleef.heads:
+  sumo.heads:
     description: control who can use HeadsPlus in-game
     default: true
-  spleef.shop:
+  sumo.shop:
     description: allow players to buy any shop item (if they have money)
     default: true
-  spleef.joinmenu:
+  sumo.joinmenu:
     description: allow players to use the join menu
     default: true
-  spleef.start:
+  sumo.start:
     description: allow players to start an arena before the minimum players is reached
     default: op
-  spleef.spectate:
+  sumo.spectate:
     description: allow players to join the arena as a spectator
     default: op
-  spleef.listrewards:
+  sumo.listrewards:
     description: allow players to list the arena rewards
     default: true
-  spleef.party:
-    description: allow players to create and join Spleef parties
+  sumo.party:
+    description: allow players to create and join Sumo parties
     default: true
 libraries:
   - org.apache.commons:commons-lang3:3.12.0

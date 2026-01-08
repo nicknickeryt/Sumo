@@ -1,10 +1,10 @@
-spprefix: '&7[&6Spleef_reloaded&7]'
-menutitle: 'Arenas &1Spleef_reloaded'
+spprefix: '&7[&6Sumo_reloaded&7]'
+menutitle: 'Arenas &1Sumo_reloaded'
 menuarenaname: '&a{ARENA}'
 menutext: '&5Spelers: &6{PS}/{MPS}'
 menufee: '&5Inschrijvingskosten: &6{FEE}'
 menupvp: '&5PVP: &6Ingeschakeld'
-menutracker: '&1Spleef speler tracker'
+menutracker: '&1Sumo speler tracker'
 nopermission: '&c Je hebt geen toegang om dit te doen'
 nolobby: '&c Globale lobby is niet ingesteld, voer uit &6/spsetup setlobby'
 lobbyunloaded: 'Lobby wereld &c Lobby is niet geladen of bestaat niet'
@@ -33,7 +33,7 @@ arenawaiting: '&6 Arena is aan het wachten'
 playerscountinarena: '&6 Huidig aantal spelers in arena: {COUNT} spelers'
 limitreached: '&7 Arena is vol.'
 playerjoinedtoothers: '&c {RANK}&6{COLOR}{PLAYER} &7heeft de arena betreden (&6{PS}&7/&6{MPS}&7)'
-playerjoininvite: '&c{RANK}&6{COLOR}{PLAYER} &7heeft Spleef arena betreden &6{ARENA}&7, klik om te spelen'
+playerjoininvite: '&c{RANK}&6{COLOR}{PLAYER} &7heeft Sumo arena betreden &6{ARENA}&7, klik om te spelen'
 playerborderinvite: '&b---------------------------------------'
 playerclickinvite: Klik om mee te doen {ARENA}
 playerjoinedasspectator: '&7 Je bent lid geworden van arena &6{ARENA} &7als toeschouwer'
@@ -66,19 +66,19 @@ notenoughmoney: '&c Je hebt {MONEY} nodig om dit voorwerp te kopen'
 alreadyboughtitem: '&c U heeft al een winkel item gekocht'
 shopnostock: '&c Dit artikel is momenteel niet op voorraad'
 maxdoublejumpsexceeded: '&c Je kunt de toegestane dubbele sprongen niet overschrijden ({MAXJUMPS})'
-playernotinarena: '&c Je bent niet in een Spleef arena'
+playernotinarena: '&c Je bent niet in een Sumo arena'
 playernotonline: '&6 {PLAYER} &7is momenteel niet online'
 gamesplayed: '&bGames gespeeld &f: '
 gameswon: '&bGewonnen &f: '
 gameslost: '&bVerliezen &f: '
 winstreak: '&bWin streak &f: '
-statshead: '&7=========[&6Spleef Stats&7]========='
-rewardshead: '&7======[&6Spleef Beloningen&7 - &een{ARENA}&7]======'
-leaderhead: '&7======[&6Spleef Scorebord&7]======'
-resultshead: '&7============[&6Spleef&7]============'
+statshead: '&7=========[&6Sumo Stats&7]========='
+rewardshead: '&7======[&6Sumo Beloningen&7 - &een{ARENA}&7]======'
+leaderhead: '&7======[&6Sumo Scorebord&7]======'
+resultshead: '&7============[&6Sumo&7]============'
 leaderboard: '{POSITION}) &c{RANK}&b{COLOR}{PLAYER} &f: Gewonnen &3{WINS}'
 leadersign: '&1{PLAYER} &4{WINS}'
-shopmoneyheader: '&fSpleef Shop Account'
+shopmoneyheader: '&fSumo Shop Account'
 shopmoneybalance: '&5Jouw saldo is &6{BAL}'
 statsdisabled: 'Belastingen zijn momenteel uitgeschakeld'
 helplobby: Teleporteer naar lobby
@@ -91,10 +91,10 @@ helpspectate: Neem deel aan de arena als toeschouwer
 helpautojoin: Automatisch toetreden tot de eerste beschikbare arena
 helpleave: Verlaat het huidige spel
 helpvote: Stem om huidige arena geforceerd te starten
-helpcmds: Bekijk alle Spleef commando's
+helpcmds: Bekijk alle Sumo commando's
 helpinfo: Bekijk plugin informatie
 helpstats: Bekijk spelerstatistieken
-helplb: Toon het Spleef scorebord
+helplb: Toon het Sumo scorebord
 helpstart: Forceer de arena
 setuplobby: Stel de globale lobby in op uw huidige locatie
 setupdellobby: Verwijder de globale lobby
@@ -131,13 +131,13 @@ setupcurrency: Stel de valuta in om de arena te betreden
 setuphelp: Opdrachten vereist voor het opzetten van een nieuwe arena
 setupenablekits: Schakel uitrustingen voor de arena in
 setupdisablekits: Deactiveer uitrustingen voor de arena
-setupaddkit: Maak een Spleef uitrusting
-setupdelkit: Een Spleef uitrusting verwijderen
+setupaddkit: Maak een Sumo uitrusting
+setupdelkit: Een Sumo uitrusting verwijderen
 setupp1: Stel doelblok in als eerste selectie punt
 setupp2: Stel doelblok in als tweede selectie punt
 setupclear: Selectiepunten wissen
 setupwhitelist: Whitelist een commando voor het gebruik in het spel
-setupresetstats: Verwijder alle Spleef statistieken voor de speler
+setupresetstats: Verwijder alle Sumo statistieken voor de speler
 setupresetrank: Verwijder spelers rang uit cache
 setupwaiting: Set a spawn location used prior to joining the arena
 setupdelwaiting: Delete the waiting spawn location
@@ -160,7 +160,7 @@ partyban: '&c Je bent momenteel uit deze groep gezet'
 partyinparty: '&c Je zit al in een groep'
 partynotexist: '&c De geselecteerde groep bestaat niet'
 partynoinvite: '&c Je hebt geen uitnodiging voor deze groep'
-partynotenabled: '&c Spleef party is momenteel niet ingeschakeld'
+partynotenabled: '&c Sumo party is momenteel niet ingeschakeld'
 partyclickaccept: '&6&lAccepteer'
 partyclickdecline: '&6&lAfwijzen'
 partyaccepttext: '&7Klik om de uitnodiging te &baccepteren'

@@ -1,10 +1,10 @@
-spprefix: '&7[&6Spleef_reloaded&7]'
-menutitle: '&1Spleef_reloaded Arenas'
+spprefix: '&7[&6Sumo_reloaded&7]'
+menutitle: '&1Sumo_reloaded Arenas'
 menuarenaname: '&a{ARENA}'
 menutext: '&5Players: &6{PS}/{MPS}'
 menufee: '&5Join Fee: &6{FEE}'
 menupvp: '&5PVP: &6Enabled'
-menutracker: '&1Spleef player tracker'
+menutracker: '&1Sumo player tracker'
 nopermission: '&c You don''t have permission to do this'
 nolobby: '&c Global lobby isn''t set, run &6/spsetup setlobby'
 lobbyunloaded: '&c Lobby world is unloaded or doesn''t exist'
@@ -33,7 +33,7 @@ arenawaiting: '&6 Arena is waiting'
 playerscountinarena: '&6 Current number of players in arena: {COUNT} players'
 limitreached: '&7 Arena is full.'
 playerjoinedtoothers: '&c {RANK}&6{COLOR}{PLAYER} &7joined the arena (&6{PS}&7/&6{MPS}&7)'
-playerjoininvite: '&c{RANK}&6{COLOR}{PLAYER} &7has joined Spleef arena &6{ARENA}&7,
+playerjoininvite: '&c{RANK}&6{COLOR}{PLAYER} &7has joined Sumo arena &6{ARENA}&7,
   click to play'
 playerborderinvite: '&b---------------------------------------'
 playerclickinvite: Click to join {ARENA}
@@ -67,19 +67,19 @@ notenoughmoney: '&c You need {MONEY} to buy this item'
 alreadyboughtitem: '&c You have already bought a shop item'
 shopnostock: '&c This item is currently out of stock'
 maxdoublejumpsexceeded: '&c You cannot exceed the maximum doublejumps allowed ({MAXJUMPS})'
-playernotinarena: '&c You are not in a Spleef arena'
+playernotinarena: '&c You are not in a Sumo arena'
 playernotonline: '&6 {PLAYER} &7is not currently online'
 gamesplayed: '&bGames played &f: '
 gameswon: '&bWins &f: '
 gameslost: '&bLosses &f: '
 winstreak: '&bWin streak &f: '
-statshead: '&7=========[&6Spleef Stats&7]========='
-rewardshead: '&7======[&6Spleef Rewards&7 - &a{ARENA}&7]======'
-leaderhead: '&7======[&6Spleef Leaderboard&7]======'
-resultshead: '&7============[&6Spleef&7]============'
+statshead: '&7=========[&6Sumo Stats&7]========='
+rewardshead: '&7======[&6Sumo Rewards&7 - &a{ARENA}&7]======'
+leaderhead: '&7======[&6Sumo Leaderboard&7]======'
+resultshead: '&7============[&6Sumo&7]============'
 leaderboard: '{POSITION}) &c{RANK}&b{COLOR}{PLAYER} &f: Wins &3{WINS}'
 leadersign: '&1{PLAYER} &4{WINS}'
-shopmoneyheader: '&fSpleef Shop Account'
+shopmoneyheader: '&fSumo Shop Account'
 shopmoneybalance: '&5Your balance is &6{BAL}'
 statsdisabled: '&c Stats are currently disabled'
 helplobby: Teleport to lobby
@@ -92,10 +92,10 @@ helpspectate: Join the arena as a spectator
 helpautojoin: Automatically join the first available arena
 helpleave: Leave the current arena
 helpvote: Vote to force-start current arena
-helpcmds: View all Spleef commands
+helpcmds: View all Sumo commands
 helpinfo: View plugin info
 helpstats: View player stats
-helplb: Display the Spleef leaderboard
+helplb: Display the Sumo leaderboard
 helpstart: Force-start the arena
 setuplobby: Set the global lobby at your current location
 setupdellobby: Delete the global lobby
@@ -132,13 +132,13 @@ setupcurrency: Set the currency to join the arena
 setuphelp: Commands required to setup a new arena
 setupenablekits: Enable kits for the arena
 setupdisablekits: Disable kits for the arena
-setupaddkit: Create a Spleef kit
-setupdelkit: Delete a Spleef kit
+setupaddkit: Create a Sumo kit
+setupdelkit: Delete a Sumo kit
 setupp1: Set targeted block as first selection point
 setupp2: Set targeted block as second selection point
 setupclear: Clear selection points
 setupwhitelist: Whitelist a command for use in-game
-setupresetstats: Remove all Spleef stats for the player
+setupresetstats: Remove all Sumo stats for the player
 setupresetrank: Remove player's rank from the cache
 setupwaiting: Set a spawn location used prior to joining the arena
 setupdelwaiting: Delete the waiting spawn location
@@ -161,7 +161,7 @@ partyban: '&c You are currently kicked from this party'
 partyinparty: '&c You are already in a party'
 partynotexist: '&c The selected party does not exist'
 partynoinvite: '&c You do not have an invitation to this party'
-partynotenabled: '&c Spleef parties are not currently enabled'
+partynotenabled: '&c Sumo parties are not currently enabled'
 partyclickaccept: '&6&lAccept'
 partyclickdecline: '&6&lDecline'
 partyaccepttext: '&7Click to &baccept &7the invitation'

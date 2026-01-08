@@ -1,10 +1,10 @@
-spprefix: '&7[&6Spleef_reloaded&7]'
-menutitle: '&1Spleef_reloaded Arenaer'
+spprefix: '&7[&6Sumo_reloaded&7]'
+menutitle: '&1Sumo_reloaded Arenaer'
 menuarenaname: '&a{ARENA}'
 menutext: '&5Spiller: &6{PS}/{MPS}'
 menufee: '&5Bli med Avgift: &6{FEE}'
 menupvp: '&5PVP: &6Aktivert'
-menutracker: '&1Spleef player tracker'
+menutracker: '&1Sumo player tracker'
 nopermission: '&c Du har ikke tillatelse til å gjøre dette'
 nolobby: '&c Global lobby er ikke satt, kjør &6/spsetup setlobby'
 lobbyunloaded: '&c Lobbyverdenen er losset eller eksisterer ikke'
@@ -33,7 +33,7 @@ arenawaiting: '&6 Arena venter'
 playerscountinarena: '&6 Nåværende antall spillere i arenaen: {COUNT} spillere'
 limitreached: '&7 Arena er full.'
 playerjoinedtoothers: '&c {RANK}&6{COLOR}{PLAYER} &7ble med på arenaen (&6{PS}&7/&6{MPS}&7)'
-playerjoininvite: '&c{RANK}&6{COLOR}{PLAYER} &7har sluttet seg til Spleef arena &6{ARENA}&7, Klikk for å spille'
+playerjoininvite: '&c{RANK}&6{COLOR}{PLAYER} &7har sluttet seg til Sumo arena &6{ARENA}&7, Klikk for å spille'
 playerborderinvite: '&b---------------------------------------'
 playerclickinvite: Klikk for å bli med {ARENA}
 playerjoinedasspectator: '&7 Du ble med på arenaen &6{ARENA} &7som tilskuer'
@@ -66,19 +66,19 @@ notenoughmoney: '&c Du trenger {PENGER} for å kjøpe denne varen'
 alreadyboughtitem: '&c Du har allerede kjøpt en butikkvare'
 shopnostock: '&c Denne varen er for tiden ikke på lager'
 maxdoublejumpsexceeded: '&c Du kan ikke overskride maksimalt tillatte doble hopp ({MAXJUMPS})'
-playernotinarena: '&c Du er ikke i en Spleef arena'
+playernotinarena: '&c Du er ikke i en Sumo arena'
 playernotonline: '&6 {PLAYER} &7is not currently online'
 gamesplayed: '&bSpill spilt &f: '
 gameswon: '&bVunnet &f: '
 gameslost: '&bTapt &f: '
 winstreak: '&bWin streak &f: '
-statshead: '&7=========[&6Spleef Statistikk&7]========='
-rewardshead: '&7======[&6Spleef Belønninger&7 - &a{ARENA}&7]======'
-leaderhead: '&7======[&6Spleef Leaderboard&7]======'
-resultshead: '&7============[&6Spleef&7]============'
+statshead: '&7=========[&6Sumo Statistikk&7]========='
+rewardshead: '&7======[&6Sumo Belønninger&7 - &a{ARENA}&7]======'
+leaderhead: '&7======[&6Sumo Leaderboard&7]======'
+resultshead: '&7============[&6Sumo&7]============'
 leaderboard: '{POSITION}) &c{RANK}&b{COLOR}{PLAYER} &f: Vunnet &3{WINS}'
 leadersign: '&1{SPILLER} &4{VUNNET}'
-shopmoneyheader: '&fSpleef Butikk konto'
+shopmoneyheader: '&fSumo Butikk konto'
 shopmoneybalance: '&5Balansen din er &6{BAL}'
 statsdisabled: '&c Statistikk er for øyeblikket deaktivert'
 helplobby: Teleporter til lobbyen
@@ -91,10 +91,10 @@ helpspectate: Bli med på arenaen som tilskuer
 helpautojoin: Bli automatisk med på den første tilgjengelige arenaen
 helpleave: Forlat den nåværende arenaen
 helpvote: Stem for å tvinge igang nåværende arena
-helpcmds: Vis alle Spleef-kommandoer
+helpcmds: Vis alle Sumo-kommandoer
 helpinfo: Se plugin-informasjon
 helpstats: Se spillerstatistikk
-helplb: Vis Spleef leaderboard
+helplb: Vis Sumo leaderboard
 helpstart: Tving start arenaen
 setuplobby: Sett den globale lobbyen på din nåværende plassering
 setupdellobby: Slett den globale lobbyen
@@ -131,13 +131,13 @@ setupcurrency: Still inn valutaen for å bli med på arenaen
 setuphelp: Kommandoer som kreves for å sette opp en ny arena
 setupenablekits: Aktiver sett for arenaen
 setupdisablekits: Deaktiver sett for arenaen
-setupaddkit: Lag et Spleef-sett
-setupdelkit: Slett et Spleef-sett
+setupaddkit: Lag et Sumo-sett
+setupdelkit: Slett et Sumo-sett
 setupp1: Sett målrettet blokk som første valgpunkt
 setupp2: Sett målrettet blokk som andre valgpunkt
 setupclear: Fjern markeringspunkter
 setupwhitelist: Hvitliste en kommando for bruk i spillet
-setupresetstats: Remove all Spleef stats for the player
+setupresetstats: Remove all Sumo stats for the player
 setupresetrank: Remove player's rank from the cache
 setupwaiting: Set a spawn location used prior to joining the arena
 setupdelwaiting: Delete the waiting spawn location
@@ -160,7 +160,7 @@ partyban: '&c You are currently kicked from this party'
 partyinparty: '&c You are already in a party'
 partynotexist: '&c The selected party does not exist'
 partynoinvite: '&c You do not have an invitation to this party'
-partynotenabled: '&c Spleef parties are not currently enabled'
+partynotenabled: '&c Sumo parties are not currently enabled'
 partyclickaccept: '&6&lAccept'
 partyclickdecline: '&6&lDecline'
 partyaccepttext: '&7Click to &baccept &7the invitation'

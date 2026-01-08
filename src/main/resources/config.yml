@@ -1,8 +1,8 @@
-# Spleef_reloaded configuration file     #
+# Sumo_reloaded configuration file     #
 #                                        #
-# The Spleef_reloaded plugin             #
+# The Sumo_reloaded plugin             #
 #                                        #
-# Spleef_reloaded author steve4744       #
+# Sumo_reloaded author steve4744       #
 #                                        #
 
 special:
@@ -19,11 +19,11 @@ special:
   # use scoreboard to display in-game stats
   UseScoreboard: true
   #
-  # using permission "spleef.doublejumps.n" where n is an integer will limit the number of doublejumps
+  # using permission "sumo.doublejumps.n" where n is an integer will limit the number of doublejumps
   # a player will receive up to the max allowed. Applies to free and shop doublejumps
   UseDoubleJumpPermissions: false
   #
-  # check for new version of Spleef_reloaded on SpigotMC.org
+  # check for new version of Sumo_reloaded on SpigotMC.org
   CheckForNewVersion: true
   #
   # enable metrics (bStats)
@@ -44,7 +44,7 @@ UseRankInChat:
 # in-game shop configuration
 shop:
   enabled: true
-  name: '&6&lSpleef &f&lSHOP'
+  name: '&6&lSumo &f&lSHOP'
   size: 27
   doublejump:
     maxdoublejumps: 10
@@ -67,7 +67,7 @@ freedoublejumps:
 # run server commands on win
 # setting to "- null" will disable the commands
 commandsonwin:
-- say {PLAYER} won Spleef on {ARENA}
+- say {PLAYER} won Sumo on {ARENA}
 - say Congratulations...
 #
 # run server commands on lose
@@ -92,13 +92,13 @@ invitationmessage:
   # if true, players that join will join as spectators if arena is already running
   allowspectate: false
   #
-  # if true, players already playing Spleef will not receive the message
+  # if true, players already playing Sumo will not receive the message
   excludeplayers: false
   #
   # if true, the originating player will not receive the message
   excludeoriginator: false
 #
-# if enabled players can create and join Spleef parties
+# if enabled players can create and join Sumo parties
 # alternatively, the AlessioDP Parties plugin can be used
 parties:
   enabled: true
@@ -227,8 +227,8 @@ items:
 #
 # set scoreboard text - only the header supports hex/rgb colours
 scoreboard:
-  # the header supports hex colours, e.g. header: '<#ff11aa>&lSPLEEF'
-  header: '&6&lSPLEEF'
+  # the header supports hex colours, e.g. header: '<#ff11aa>&lSUMO'
+  header: '&6&lSUMO'
   # set to true to add a player's doublejumps to the scoreboard
   displaydoublejumps: false
   # set to true to remove the scoreboard when a player becomes a spectator
@@ -236,7 +236,7 @@ scoreboard:
   # set to true to display the lobby scoreboard when a player runs the "/sp lobby" command
   enablelobbyscoreboard: false
   waiting:
-  - '&fWelcome to Spleef'
+  - '&fWelcome to Sumo'
   - '&a '
   - '&fArena: &6&l{ARENA}'
   - '&b '
@@ -246,7 +246,7 @@ scoreboard:
   - '&d '
   - '&fStarting in: &6&l{COUNT}'
   playing:
-  - '&fPlaying Spleef'
+  - '&fPlaying Sumo'
   - '&fon arena: &6&l{ARENA}'
   - '&b '
   - '&fPlayers: &a&l{PS}&7&l/&c&l{MPS}'
@@ -255,14 +255,14 @@ scoreboard:
   - '&d '
   - '&fEnd in: &c&l{LIMIT}'
   lobby:
-  - '&fWelcome to the Spleef lobby'
+  - '&fWelcome to the Sumo lobby'
   - '&a '
-  - '&fNumber of Arenas: %spleef_arena_count%'
+  - '&fNumber of Arenas: %sumo_arena_count%'
   - '&b '
-  - '&fGames played: %spleef_played%'
-  - '&fGames won: %spleef_wins%'
+  - '&fGames played: %sumo_played%'
+  - '&fGames won: %sumo_wins%'
   - '&c '
-  - '&fSpleef_reloaded v%spleef_version%'
+  - '&fSumo_reloaded v%sumo_version%'
 #
 # configure stats - set database to 'file' (to use stats.yml) or 'sql' (to use a MySQL database)
 database: file
@@ -271,7 +271,7 @@ database: file
 MySQL:
   host: host
   port: 12345
-  name: spleef
+  name: sumo
   table: stats
   user: root
   pass: password
@@ -283,7 +283,7 @@ MySQL:
 # RGB colours are supported, e.g. to set the arena name colour
 # arena: <#FF00FF>
 signs:
-  prefix: '&6&lSpleef'
+  prefix: '&6&lSumo'
   join: '&0[Join]'
   arena: '&0'
   status:
@@ -314,7 +314,7 @@ bungeecord:
   stopserver: false
   # if true players real UUIDs will be used (if forwarded by the proxy server)
   useUUID: false
-  # if false players will join the spleef lobby when joining the server and at the end of a game
+  # if false players will join the sumo lobby when joining the server and at the end of a game
   teleporttohub: true
   # if true players with 'spectate' permission will join as a player if the arena has not started
   playorspectate: false

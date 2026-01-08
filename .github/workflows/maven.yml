@@ -34,14 +34,14 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         TAG_NAME: ${{ env.VERSION }}.${{ github.run_number }}
       run: |
-        gh release create v${{ env.TAG_NAME }} -t Spleef_reloaded-${{ env.TAG_NAME }} --target ${{ env.VERSION }}
+        gh release create v${{ env.TAG_NAME }} -t Sumo_reloaded-${{ env.TAG_NAME }} --target ${{ env.VERSION }}
 
     - name: Upload Release Asset
       id: upload-release-asset
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         TAG_NAME: ${{ env.VERSION }}.${{ github.run_number }}
-        ASSET_NAME: Spleef_reloaded-${{ env.VERSION }}.jar
+        ASSET_NAME: Sumo_reloaded-${{ env.VERSION }}.jar
       run: |
         gh release upload v${{ env.TAG_NAME }} "target/${{ env.ASSET_NAME }}#${{ env.ASSET_NAME }}"
 
@@ -53,4 +53,4 @@ jobs:
         #        credentials type: 'username'
         #        user: ${{ secrets.RT_USER }}
         #        password: ${{ secrets.RT_PASSWORD }}
-        #        args: u "target/Spleef_reloaded-${{ env.VERSION }}.jar" "steve4744-repo/io.github.steve4744/Spleef_reloaded/${{ env.VERSION }}/"
+        #        args: u "target/Sumo_reloaded-${{ env.VERSION }}.jar" "steve4744-repo/io.github.steve4744/Sumo_reloaded/${{ env.VERSION }}/"

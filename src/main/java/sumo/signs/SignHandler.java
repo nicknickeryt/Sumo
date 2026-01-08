@@ -1,0 +1,140 @@
+/**
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 3
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ *
+ */
+
+package sumo.signs;
+
+import java.util.HashMap;
+
+import org.bukkit.ChatColor;
+import org.bukkit.block.Sign;
+import org.bukkit.block.sign.Side;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
+import org.bukkit.event.Listener;
+import org.bukkit.event.block.Action;
+import org.bukkit.event.block.BlockBreakEvent;
+import org.bukkit.event.block.SignChangeEvent;
+import org.bukkit.event.player.PlayerInteractEvent;
+import org.bukkit.event.player.PlayerSignOpenEvent;
+
+import sumo.Sumo;
+import sumo.messages.Messages;
+import sumo.signs.type.AutoJoinSign;
+import sumo.signs.type.JoinSign;
+import sumo.signs.type.LeaderboardSign;
+import sumo.signs.type.LeaveSign;
+import sumo.signs.type.LobbySign;
+import sumo.signs.type.SignType;
+import sumo.signs.type.VoteSign;
+import sumo.utils.FormattingCodesParser;
+
+public class SignHandler implements Listener {
+
+	private HashMap<String, SignType> signs = new HashMap<>();
+
+	private Sumo plugin;
+
+	public SignHandler(Sumo plugin) {
+		signs.put("[join]", new JoinSign(plugin));
+		signs.put("[leave]", new LeaveSign(plugin));
+		signs.put("[vote]", new VoteSign(plugin));
+		signs.put("[lobby]", new LobbySign(plugin));
+		signs.put("[autojoin]", new AutoJoinSign(plugin));
+		signs.put("[leaderboard]", new LeaderboardSign(plugin));
+
+		this.plugin = plugin;
+	}
+
+	@EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
+	public void onSumoSignCreate(SignChangeEvent e) {
+		Player player = e.getPlayer();
+		if (ChatColor.stripColor(e.getLine(0)).equalsIgnoreCase("[Sumo]")) {
+			if (!player.hasPermission("sumo.setup")) {
+				Messages.sendMessage(player, Messages.nopermission);
+				e.setCancelled(true);
+				e.getBlock().breakNaturally();
+				return;
+			}	
+			String line = e.getLine(1).toLowerCase();
+			if (signs.containsKey(line)) {
+				signs.get(line).handleCreation(e);
+			}
+		}
+	}
+
+	@EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
+	public void onSignClick(PlayerInteractEvent e) {
+		if (e.getAction() != Action.RIGHT_CLICK_BLOCK) {
+			return;
+		}
+		if (!(e.getClickedBlock().getState() instanceof Sign)) {
+			return;
+		}
+		Sign sign = (Sign) e.getClickedBlock().getState();
+		if (sign.getSide(Side.FRONT).getLine(0).equalsIgnoreCase(
+				FormattingCodesParser.parseFormattingCodes(plugin.getConfig().getString("signs.prefix")))) {
+
+			String line = ChatColor.stripColor(sign.getSide(Side.FRONT).getLine(1).toLowerCase());
+			if (line.equalsIgnoreCase(ChatColor.stripColor(
+					FormattingCodesParser.parseFormattingCodes(plugin.getConfig().getString("signs.join"))))) {
+				line = "[join]";
+			}
+			if (signs.containsKey(line)) {
+				signs.get(line).handleClick(e);
+			}
+		}
+	}
+
+	@EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
+	public void onSignDestroy(BlockBreakEvent e) {
+		if (!(e.getBlock().getState() instanceof Sign)) {
+			return;
+		}
+		Player player = e.getPlayer();
+		Sign sign = (Sign) e.getBlock().getState();
+		if (sign.getSide(Side.FRONT).getLine(0).equalsIgnoreCase(
+				FormattingCodesParser.parseFormattingCodes(plugin.getConfig().getString("signs.prefix")))) {
+
+			if (!player.hasPermission("sumo.setup")) {
+				Messages.sendMessage(player, Messages.nopermission);
+				e.setCancelled(true);
+				return;
+			}
+			String line = sign.getSide(Side.FRONT).getLine(1).toLowerCase();
+			if (line.equalsIgnoreCase(FormattingCodesParser.parseFormattingCodes(plugin.getConfig().getString("signs.join")))) {
+				line = "[join]";
+			}
+			if (signs.containsKey(line)) {
+				signs.get(line).handleDestroy(e);
+			} else {
+				// at this point it must be a Sumo leaderboard sign
+				signs.get("[leaderboard]").handleDestroy(e);
+			}
+		}
+	}
+
+	@EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
+	public void onSignEdit(PlayerSignOpenEvent e) {
+		Sign sign = e.getSign();
+		if (sign.getSide(Side.FRONT).getLine(0).equalsIgnoreCase(
+				FormattingCodesParser.parseFormattingCodes(plugin.getConfig().getString("signs.prefix")))) {
+			e.setCancelled(true);
+		}
+	}
+
+}
